@@ -1,0 +1,49 @@
+<svg width="220" height="220" viewBox="0 0 220 220" fill="none"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="gradLeft" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff7a18"/>
+      <stop offset="100%" stop-color="#ffb347"/>
+    </linearGradient>
+
+    <linearGradient id="gradRight" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#00c6ff"/>
+      <stop offset="100%" stop-color="#0072ff"/>
+    </linearGradient>
+
+    <linearGradient id="coinGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffd166"/>
+      <stop offset="100%" stop-color="#fca311"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Left community arc -->
+  <path d="M110 60
+           C40 60, 30 160, 110 190"
+        stroke="url(#gradLeft)"
+        stroke-width="14"
+        stroke-linecap="round"
+        fill="none"/>
+
+  <!-- Right community arc -->
+  <path d="M110 60
+           C180 60, 190 160, 110 190"
+        stroke="url(#gradRight)"
+        stroke-width="14"
+        stroke-linecap="round"
+        fill="none"/>
+
+  <!-- People dots -->
+  <circle cx="60" cy="50" r="7" fill="#ff7a18"/>
+  <circle cx="160" cy="50" r="7" fill="#00c6ff"/>
+  <circle cx="110" cy="40" r="7" fill="#8a2be2"/>
+
+  <!-- Coin -->
+  <circle cx="110" cy="120" r="22" fill="url(#coinGrad)"/>
+  <text x="110" y="128"
+        text-anchor="middle"
+        font-size="20"
+        font-weight="700"
+        fill="#ffffff">$</text>
+</svg>
